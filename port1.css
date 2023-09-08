@@ -1,0 +1,139 @@
+#first{
+    background-color: #241468;
+    height: 485px;
+    color: white;
+    font-size: 2rem
+}
+.coder{
+    margin-left: 746px;
+    height: 410px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 19px;
+}
+.prog{
+    height: 401px;
+    /* position: relative; */
+    margin: 0px 0px 0px 556px;
+    width: 54%!important;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #241468;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: #9F0D7F;
+    font-size: 1.2rem;
+}
+.ctrl{
+    width: 5%;
+}
+.pic{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.left {
+    font-size: 2rem;
+    color: #fff;
+}
+.ind{
+    margin-bottom: 1rem;
+}
+.left_section{
+    margin: -40px 1px -264px 93px;
+    width: 350px;
+    padding-top: 2px;
+    position: relative;
+    top: 83px;
+    left: 64px;
+}
+.bootstrap-icons{
+    font-size: 70px;
+    color: #241468 ;
+}
+.bootstrap-icons:hover{
+    color: #241468;
+}
+#features{
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+   
+}
+/* .index{
+    position: absolute;
+    z-index: 1;
+} */
+.features-text{
+    padding-right: 70px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+
+#footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #241468;
+    color: white;
+    padding-left: 370px;
+}
+.footer_icon{
+    margin: 10px;
+    font-size: 20px;
+    /* color: blue; */
+}
+.i:hover{
+    color: blue;
+}
+.footer_icon:hover{
+    color: blue;
+}
+.contact{
+    padding: 0px 0px 16px 0px;
+}
+.carosel{
+    height: 479px;
+}
+.carosel2{
+    height: 479px;
+}
+.carousel-item{
+    padding-bottom: 65px;
+}
+.codd{
+    position: relative;
+    top: 258px;
+    left: 192px;
+}
+.codeicon{
+    position: relative;
+    top: 156px;
+    left: 247px;
+}

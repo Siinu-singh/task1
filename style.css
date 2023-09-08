@@ -1,0 +1,232 @@
+
+.my_pic{
+    height: 124px;
+    width: 125px;
+    margin-bottom: 20px;
+    background-image: -moz-linear-gradient();
+}
+.app_dev{
+    width: 28%;
+    position: relative;
+    bottom: 97%;
+    left: 48%
+}
+.developer{
+    width: 99%;
+}
+.layers{
+     width: 25%;
+    position: relative;
+    bottom: 123%;
+    left: 61%;
+}
+.soft_dev{
+    width: 22%;
+    position: relative;
+    left: 57%;
+    bottom: 134%;
+}
+.first{
+    height: 450px;
+}
+main hr{
+ border-top: 10px dotted;
+ color: rgb(22, 3, 3);
+    background: none;
+    width: 12%;
+    margin: auto;
+}
+#element{
+    color: black;
+}
+.text_grey{
+    color: grey;
+    
+    /* background-color: #9F91CC; */
+    /* width: 100%; */
+    /* padding-right: 86%;
+    padding-left: 42px; */
+}
+#second_section{
+    background-color: white;
+    height: 440px;
+}
+#second_section h1{
+    color: black;
+    padding: 88px 0 22px 114px;
+}
+.vertical{
+    height: 4px;
+    background-color: black;
+    width: 47%;
+    margin: 10px 0px 0px 41px;
+    display: flex;
+}
+.horizontal{
+    background-color: black;
+    width: 4px;
+    height: 56px;
+    margin: 0px 60px;
+  
+    /* margin: 0px 20px 10px 72px; */
+}
+.logo{
+    width: 784px;
+}
+.java{
+    width: 11%;
+    margin: 47px 0px 80px 63px;
+}
+.c{
+    width: 11%;
+    margin: 0px 0px 6px 30px
+}
+.js{
+    width: 11%;
+    margin: 0px 0px 10px 34px;
+}
+.css{
+    width: 11%;
+    margin: 8px -1px 16px 36px;
+}
+.jss{
+    width: 10%;
+    margin: 0px 0px 17px 38px;
+}
+.bg{
+    opacity: 20%;
+    width: 100%;
+    height: 415px;
+}
+.section2{
+    position: relative;
+    top: -105%;
+    width: 100%;    
+}
+/* .txt{
+    color: black;
+    position: relative;
+    float: right;
+    
+    margin: 0px 100px -49px 1%;
+    bottom: 247px;
+} */
+.text{
+    color: black;
+    padding-top: 19px;
+    float: right;
+    position: relative;
+    top: -233px;
+    right: 88px;
+    line-height: 2;
+}
+.txt{
+    margin: -6px 25px 34px 0px;
+}
+/* Third Section  */
+.Third{
+    background-color: #9F91CC;
+    height: 500px;
+
+}
+.books{
+    width: 43%;
+    margin: -284px -32px -2px 30px;
+}
+.edu{
+    float: right;
+    position: relative;
+    top: -253px;
+    left: 312px;
+    /* font-size: 20px; */
+}
+.education{
+    padding: 55px 0px 0px 88px;
+}
+edu.ul.li{
+    margin: 10px;
+}
+.li_items{
+    margin: 0px 0px 10px 0px;
+    font-size: 26px
+}
+.music{
+    width: 33%;
+    transform: rotate(-67deg);
+    position: relative;
+    top: -85%;
+    left: 54%;
+}
+.degree{
+    width: 8%;
+    position: relative;
+    top: -160%;
+    right: 152px;
+}
+.earth{
+    width: 8%;
+    position: relative;
+    top: -638px;
+    left: -294px;
+}
+.gstudent{
+    width: 11%;
+    position: relative;
+    top: -141%;
+    left: -107px;
+}
+.school{
+    width: 12%;
+    position: relative;
+    top: -250%;
+    left: 66%;
+}
+.foot{
+    height: 212px;
+    background-color: white;
+    color: black;
+    position: relative;
+    /* z-index: 1; */
+}
+.twte.a:hover{
+    font-size: 1.2rem;
+    width: 60px;
+    size: 50px;
+}
+.logo:hover{
+    color: yellow;
+}
+    
+
+  .bton{
+    margin: 0px 30px 0px 613px;
+  }
+  .download-button{
+    margin: 5% 3% 5%;
+}
+  
+  .twt{
+    width: 30px;
+    margin: 44px 10px 5px 522px;
+    display: flex;
+  }
+  .linkedln{
+    width: 30px;
+    margin: -35px 45px 0px 596px;
+    display: flex;
+  }
+  .mail{
+    width: 35px;
+    margin: -33px 0px 0px 680px;
+    display: flex;
+}
+.facebook{
+    width: 31px;
+    margin: -33px 0px 0px 772px;
+    display: flex;
+}
+
+
+a{
+    color: white;
+}

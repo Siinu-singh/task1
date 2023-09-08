@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Profile</title>
+    <!-- Bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- Google Fonts  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Typed Script  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap Icons  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Style Sheet  -->
+    <link rel="stylesheet" href="port1.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"><img class="pic" src="images/degree.png" alt=""> Suraj's Portfolio
+
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="#second_section">Skills</a></li>
+                    <li><a href="#first">Home</a></li>
+                    <li><a href="#project">Porject</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="first">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators ind">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active carosel">
+                    <div class="left_section" >
+                        <img class="my_pic" src="images/PIC-modified.png" alt="My Pic">
+                        <div class="name"> Hii" I am <span class="Suraj">Suraj Kumar.</span>
+                        </div>
+                        <div>I am a </div>
+                        <span id="element"></span>
+                        <script>
+                            var typed = new Typed('#element', {
+                                strings: ['"Web Developer"', '"Software Engineer"'],
+                                typeSpeed: 50,
+                            });
+                        </script><br>
+                        <button type="button" class="btn btn-dark  btn-lg download-button"><i class="bi bi-apple"></i>
+                            Resume</button>
+                        <button type="button" class="btn btn-outline-light  btn-lg download-button2"> <i
+                                class="bi bi-google-play"></i>
+                            Github</button>
+                    </div>
+                    <img src="images/cd.png" class=" w-53 coder" alt="...">
+                </div>
+                <div class="carousel-item carosel2">
+                    <i class="bi bi-code-slash codeicon"></i>
+                    <span class="codd">Coder</span>
+                    
+                    <img src="images/prog.png" class="d-block w-100 prog" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev ctrl" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next ctrl" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+
+        </div>
+
+    </section>
+
+    <section id="second_section">
+
+        <span class="text_grey">What I have Learn.</span>
+        <img src="images/learning.jpg" alt="" class="bg">
+        <div class="section2">
+            <div class="topsecond">
+                <h1 style="font-weight: bold;">Skills</h1>
+            </div>
+            <div class="vertical">
+                <div class="horizontal"></div>
+                <div class="horizontal"></div>
+                <div class="horizontal"></div>
+                <div class="horizontal"></div>
+                <div class="horizontal"></div>
+            </div>
+            <div class="logo">
+                <img class="java" src="images/java.png" alt="java Image">
+                <img src="images/c-.png" alt="" class="c">
+                <img src="images/html-5.png" alt="" class="js">
+                <img src="images/css-3.png" alt="" class="css">
+                <img src="images/java-script.png" alt="" class="jss">
+            </div>
+
+            <div class="text">
+                <h3 class="txt">Advance in JAVA</h3>
+                <h3 class="txt">DAta Structure and Algorithm</h3>
+                <h3 class="txt">HTML, CSS, JAVA SCRIPT</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="topsecond">
+            <h1 style="font-weight: bold;">Projects</h1>
+        </div>
+        
+        <div class="index">
+            <section id="features">
+              <div class="row">
+                <div class="col-lg-4 features-text">
+                  <i class="bi bi-heart-pulse-fill bootstrap-icons"></i>
+                  <h3>Tindog Website </h3>
+                  <p>Made a clone of Tindog Website.</p>
+          
+                </div>
+                <div class="col-lg-4 features-text">
+                  <i class="bi bi-h-circle-fill bootstrap-icons"></i>
+                  <h3>Hotstar</h3>
+                  <p>Successfully completed HOTSTAR clone using HTML,CSS,JS by Devtown.</p>
+          
+                </div>
+                <div class="col-lg-4 features-text">
+                  <i class="bi bi-cart3 bootstrap-icons"></i>
+                  <h3>Food Delivery.</h3>
+                  <p>A Website for ordering Food.</p>
+          
+                </div>
+              </div>
+            </section>
+          </div>
+            
+    </section>
+
+    <footer id="footer">
+        <div class="contact">
+            <h2>Contact</h2>
+        </div>
+        <i class="footer_icon bi bi-facebook"></i>
+        <i class="footer_icon bi bi-whatsapp"></i>
+        <i class="footer_icon bi bi-twitter"></i>
+        <i class="footer_icon bi bi-instagram"></i>
+        
+        <a href="www.gmail.com"><i class="footer_icon bi bi-envelope-fill"></i></a>
+        <p style="line-height: 3.5cap; margin-top: 30px;">© Copyright Suraj's Portfolio</p>
+    
+      </footer>
+
+    
+
+</body>
+
+</html>
